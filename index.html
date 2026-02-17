@@ -37,7 +37,32 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Veronica">
+            <img src="./assets/profile-pic.png" alt="Veronica" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Veronica Lukita</h1>
+            <p class="section__text__p2">Software & AI Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Veronica_Lukita_CV.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                    src="./assets/icons/linkedin-icon.png" 
+                    alt="LinkedIn Profile" 
+                    class="icon" 
+                    onclick="window.open('https://linkedin.com/in/veronica-lukita', '_blank')" />
+                <img 
+                    src="./assets/icons/github-icon.png" 
+                    alt="GitHub Profile" 
+                    class="icon" 
+                    onclick="window.open('https://github.com/stiyqr', '_blank')" />
+            </div>
         </div>
     </section>
     <script src="script.js"></script>
