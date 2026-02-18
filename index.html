@@ -9,7 +9,9 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Veronica Lukita</div>
+        <div class="logo">
+            <a href="https://stiyqr.github.io">Veronica Lukita</a>
+        </div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -20,7 +22,9 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Veronica Lukita</div>
+        <div class="logo">
+            <a href="https://stiyqr.github.io">Veronica Lukita</a>
+        </div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -75,7 +79,7 @@
                 />
             </div>
             <div class="about-details-container">
-                <div class="about-containers">
+                <div class="about-container">
                     <div class="details-container">
                         <img src="./assets/icons/experience.png"
                             alt="Experience icon"
@@ -107,11 +111,71 @@
             </div>
         </div>
         <img src="./assets/icons/arrow-down.png" 
-            alt="arrow-icon"
+            alt="arrow-down"
             class="icon arrow"
-            onclick="location.href'./#experience'"
+            onclick="location.href='./#experience'"
         />
     </section>
+    <section id="experience">
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Cloud Platform Engineer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/icons/experience.png"
+                                alt="experience-icon"
+                                class="icon"
+                            />
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/icons/arrow-down.png"
+            alt="arrow-down"
+            class="icon arrow"
+            onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <h1 class="title">Projects</h1>
+    </section>
+    <section id="contact">
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/icons/email.png"
+                    alt="email-icon"
+                    class="icon contact-icon"
+                />
+                <p class="tooltip">
+                    <a onclick="copyEmail()">lukitaveronica@gmail.com</a>
+                    <span class="tooltiptext">Copy email</span>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/icons/linkedin.png"
+                    alt="linkedin-icon"
+                    class="icon contact-icon"
+                />
+                <p><a href="https://linkedin.com/in/veronica-lukita" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>    
     <script src="script.js"></script>
 </body>
 </html>
