@@ -314,7 +314,7 @@ section {
     text-align: center;
 }
 
-.section-container {
+.about-section-container {
     display: flex;
     gap: 4rem;
     height: 80%;
@@ -379,12 +379,38 @@ section {
     margin-left: 1rem;
 }
 
-/* .experience-details-container {
-    display: flex;
+/* PROJECTS SECTION */
+
+#projects {
+    position: relative;
+}
+
+.projects-section-container {
     justify-content: center;
     flex-direction: column;
-    background: blue;
-}*/
+    padding: 1.5rem;
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+}
+
+.project-img {
+    border-radius: 1rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
 
 /* CONTACT SECTION */
 
@@ -403,7 +429,7 @@ section {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
     margin: 2rem auto;
-    padding: 0.5rem;
+    padding: 0.5rem 4rem;
 }
 
 .contact-info-container {
