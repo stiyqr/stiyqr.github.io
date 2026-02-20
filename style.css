@@ -275,6 +275,17 @@ section {
     border: rgb(255, 255, 255) 0.1rem solid;
 }
 
+.btn-color-1-disabled {
+    border: rgb(149, 149, 149) 0.1rem solid;
+    background: rgb(80, 80, 80);
+    color: white;
+    cursor: not-allowed;
+}
+
+.btn-color-1-disabled:hover {
+    background: rgb(52, 52, 52);
+}
+
 .btn-container {
     gap: 1rem;
 }
@@ -463,11 +474,45 @@ section {
 .project-title {
     margin: 1rem;
     color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.project-description-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 1rem 1rem;
+}
+
+.project-description {
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+.project-tech-stack-container {
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.project-tech-stack-article{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.project-ai-models {
+    width: fit-content;
+    gap: 0;
+    padding: 0 0.5rem;
+}
+
+.project-tech-stack-article .tech-stack-icon{
+    height: 1.5rem;
 }
 
 .project-btn {
-    color: black;
-    border-color: rgb(163, 163, 163);
+    padding: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 /* CONTACT SECTION */
