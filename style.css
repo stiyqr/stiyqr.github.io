@@ -374,7 +374,7 @@ section {
     justify-content: center;
     flex-direction: column;
     background: rgb(250, 250, 250);
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0 0;
     width: 100%;
 }
 
@@ -413,6 +413,28 @@ section {
     color: rgb(85, 85, 85);
     font-size: 1.1rem;
     font-weight: 300;
+}
+
+.experience-tech-stack-container {
+    display: flex;
+}
+
+.tech-stack-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 0.5rem;
+    width: 5rem;
+}
+
+.tech-stack-article p {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.tech-stack-icon {
+    cursor: default;
 }
 
 /* PROJECTS SECTION */
