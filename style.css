@@ -210,6 +210,13 @@ section {
     text-align: center;
 }
 
+.sub-title {
+    font-size: 1.2rem;
+    text-align: left;
+    color: rgb(85, 85, 85);
+    font-weight: 400;
+}
+
 #socials-container {
     display: flex;
     justify-content: center;
@@ -272,6 +279,10 @@ section {
     gap: 1rem;
 }
 
+.btn-download-resume {
+    width: fit-content;
+}
+
 /* ABOUT SECTION */
 
 #about {
@@ -312,6 +323,10 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+}
+
+.details-container p {
+    margin-top: 0.2rem;
 }
 
 .about-section-container {
@@ -360,6 +375,7 @@ section {
     flex-direction: column;
     background: rgb(250, 250, 250);
     padding: 1.5rem;
+    width: 100%;
 }
 
 .experience-header-container {
@@ -376,7 +392,27 @@ section {
 
 .experience-description {
     margin-top: 0.5rem;
-    margin-left: 1rem;
+    margin-right: 8rem;
+    color: black;
+}
+
+.experience-company-details {
+    font-style: italic;
+    margin-top: 0.2rem;
+}
+
+.experience-sub-title-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: red;
+}
+
+.experience-sub-title,
+.experience-sub-title a {
+    color: rgb(85, 85, 85);
+    font-size: 1.1rem;
+    font-weight: 300;
 }
 
 /* PROJECTS SECTION */
