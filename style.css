@@ -334,6 +334,7 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    align-content: center;
 }
 
 .details-container p {
@@ -428,6 +429,7 @@ section {
 
 .experience-tech-stack-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .tech-stack-article {
@@ -492,9 +494,10 @@ section {
 .project-tech-stack-container {
     justify-content: center;
     gap: 0.5rem;
+    min-width: 350px;
 }
 
-.project-tech-stack-article{
+.project-tech-stack-article {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
@@ -503,7 +506,8 @@ section {
 .project-ai-models {
     width: fit-content;
     gap: 0;
-    padding: 0 0.5rem;
+    padding: 0.5rem;
+    justify-content: center;
 }
 
 .project-tech-stack-article .tech-stack-icon{
